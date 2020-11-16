@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> WELCOME TO GOODWILL HOSPITAL | GOODWILL HOSPITAL.com</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <nav id="navbar" style="display: flex; ">
+        <div id="logo">
+            <img src="medical-312324_1280.png" alt="GOODWILL HOSPITAL.com">
+        </div>
+        <ul >
+            <li ><a href="#">Home</a></li>
+            <li id="myBtn"><a href="#">Service</a></li>
+            <li ><a href="#">About us</a><li>
+            <li ><a href="#">Contact us</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <h1 class="h-primary">WELCOME TO GOODWILL HOSPITAL</h1>
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ratione reprehenderit.
+        </p>
+         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus, autem?</p>
+        <a href="./css/book.html"><button class="btn"> BOOK APPOINTMENT</button></a>
+    </section>
+    <section class="services-container">
+        <h1 class="h-primary center">HOSPITAL FACILITY</h1>
+        <div id="services">
+            <div class="box">
+                <img src="doctor-3410941_1920.jpg" alt="">
+                <h2 class="h-secondary center"> DOCTOR AVAILIBITY 24/7</h2>
+                <ul>
+                    <li>DR.ADEEL KHAN</li>
+                    <li>DR.SHAHID KHAN</li>
+                    <li>DR.TARIQ KHAN</li>
+                    <li>DR.AJMAL KHAN</li>
+                    <li>DR.FATIMA AJMAL</li>
+                </ul>
+            </div>
+            <div class="box">
+                <img src="hospital-ward-1338585_1920.jpg" alt="">
+                <h2 class="h-secondary center">DOCTOR TIMING </h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis, maiores. Molestias laborum rerum,
+                    velit commodi dicta necessitatibus hic autem nam voluptatibus.</p>
+            </div>
+            <div class="box">
+                <img src="ambulance-1674877_1280.png" alt="">
+                <h2 class="h-secondary center">AMBULANCE SERVICE 24/7</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis, maiores. Molestias laborum rerum,
+                    velit commodi dicta necessittibus hic autem nam voluptatibus.</p>
+            </div>
+        </div>
+    </section>
+    <Section id="client-section">
+        <h1 class="h-primary center">OUR DOCTOR</h1>
+        <div id="clients">
+            <div class="BKC">
+                <div class="client-item">
+                    <img src="a6f6a8c3-9161-4917-a3fb-c83b2bcd83ef.jpg" alt="OUR DOCTOR">
+                </div>
+                <h2 class="WCB">DR.ADEEL KHAN</h2>
+            </div>
+            <div class="BKC">
+                <div class="client-item">
+                    <img src="baby-1531059_1280.jpg" alt="OUR DOCTOR">
+                </div>
+                <h2 class="WCB">DR.SHAHID KHAN</h2>
+            </div>
+            <div class="BKC">
+                <div class="client-item">
+                    <img src="medical-312324_1280.png" alt="OUR DOCTOR">
+                </div>
+                <H2 class="WCB">DR.TARIQ KHAN</H2>
+            </div>
+            <div class="BKC">
+                <div class="client-item">
+                    <img src="a443c61a-0e1f-4348-8fc1-ee43d403efa5.jpg" alt="OUR DOCTOR">
+                </div>
+                <H2 class="WCB">DR.AJMAL KHAN</H2>
+            </div>
+            <div class="BKC">
+                <div class="client-item">
+                    <img src="baby-4748020_1920.jpg" alt="OUR DOCTOR">
+                </div>
+                <H2 class="WCB">DR.FATIMA KHAN</H2>
+            </div>
+        </div>
+
+    </Section>
+    <!-- my services modal -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content" style="border-top: 10px solid black; border-bottom: 10px solid black; display: flex;justify-content: center; flex-direction: column; background-color:#f1f1f1; border-radius: 25px;">
+          <span class="close">&times;</span>
+          <p>Some text in the Modal..</p>
+          <p>Some text in the Modal..</p>
+          <p>Some text in the Modal..</p>
+          <p>Some text in the Modal..</p>
+          <p>Some text in the Modal..</p>
+          <p>Some text in the Modal..</p>
+          <p>Some text in the Modal..</p>
+          <p>Some text in the Modal..</p>
+          <p>Some text in the Modal..</p>
+          <p>Some text in the Modal..</p>
+          <p>Some text in the Modal..</p>
+          <p>Some text in the Modal..</p>
+          <p>Some text in the Modal..</p>
+        </div>
+      
+      </div>
+
+      
+      <script>
+      // Get the modal
+      var modal = document.getElementById("myModal");
+      
+      // Get the button that opens the modal
+      var btn = document.getElementById("myBtn");
+      
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close")[0];
+      
+      // When the user clicks the button, open the modal 
+      btn.onclick = function() {
+        modal.style.display = "block";
+      }
+      
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function() {
+        modal.style.display = "none";
+      }
+      
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function(event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      }
+//       function changetext() {
+//     let data = document.getElementById('ab')
+//     data.innerText = '790000000000'
+// }
+      </script>
+      
+</body>
+
+</html>
